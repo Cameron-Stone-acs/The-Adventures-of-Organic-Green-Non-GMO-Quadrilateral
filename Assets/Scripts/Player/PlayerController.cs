@@ -1,0 +1,83 @@
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
+
+[RequireComponent(typeof(Rigidbody))]
+public class PlayerController : MonoBehaviour
+{
+    // Input Actions and Asset (player input keys)
+    public InputActionAsset actions;
+    private InputAction moveAction;
+    private InputAction jumpAction;
+    private InputAction interactAction;
+
+    // Movement variables
+    public float runSpeed = 5f;
+    public float JumpForce = 5f;
+    private bool isGrounded;
+    private Vector2 moveDirection;
+    private Vector3 playerPosition;
+
+    // Door variables
+    public bool enterDoor = false;
+    public bool exitDoor = false;
+
+    // Other Objects and Scripts
+    public GroundCheck groundCheckScript;
+    private Rigidbody rb;
+
+
+    void Start()
+    {
+        // Assigning component references
+        rb = GetComponent<Rigidbody>();
+
+        // Assigning the player actions from the main asset (player input keys)
+        moveAction = actions.FindAction("Move");
+        jumpAction = actions.FindAction("Jump");
+        interactAction = actions.FindAction("Interact");
+
+        // Enabling all actions (player input keys)
+        moveAction.Enable();
+        jumpAction.Enable();
+        interactAction.Enable();
+    }
+
+    void Update()
+    {
+        // Assigning variables that need to be constant
+        playerPosition = this.gameObject.transform.position;
+        moveDirection = moveAction.ReadValue<Vector2>();
+        isGrounded = groundCheckScript.isGrounded;
+
+        // Jumping
+        if (jumpAction.WasPressedThisFrame() && isGrounded) rb.AddForce(Vector3.up * JumpForce, ForceMode.Impulse);
+
+        // Interactions
+        if (interactAction.WasPressedThisFrame())
+        {
+            if (enterDoor) this.gameObject.transform.position = new Vector3(playerPosition.x, playerPosition.y, playerPosition.z - 20);
+            if (exitDoor) this.gameObject.transform.position = new Vector3(playerPosition.x, playerPosition.y, playerPosition.z + 20);
+        }
+
+        rb.linearVelocity = new Vector3(moveDirection.x * runSpeed, rb.linearVelocity.y, 0f);
+    }
+
+    // Movement
+    void FixedUpdate()
+    {
+        rb.linearVelocity = new Vector3(moveDirection.x * runSpeed, rb.linearVelocity.y, 0f);
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Enter Door")) enterDoor = true;
+        if (other.gameObject.CompareTag("Exit Door")) exitDoor = true;
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Enter Door")) enterDoor = false;
+        if (other.gameObject.CompareTag("Exit Door")) exitDoor = false;
+    }
+}
