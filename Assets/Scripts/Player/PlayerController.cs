@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
     {
         // Assigning variables that need to be constant
         playerPosition = this.gameObject.transform.position;
-        moveDirection = moveAction.ReadValue<Vector2>();
+        moveDirection = moveAction.ReadValue<Vector2>(); // Ge the X and Y values from the move action in the input system
         isGrounded = groundCheckScript.isGrounded;
 
         // Jumping
@@ -59,8 +59,6 @@ public class PlayerController : MonoBehaviour
             if (enterDoor) this.gameObject.transform.position = new Vector3(playerPosition.x, playerPosition.y, playerPosition.z - 20);
             if (exitDoor) this.gameObject.transform.position = new Vector3(playerPosition.x, playerPosition.y, playerPosition.z + 20);
         }
-
-        rb.linearVelocity = new Vector3(moveDirection.x * runSpeed, rb.linearVelocity.y, 0f);
     }
 
     // Movement
@@ -69,12 +67,14 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = new Vector3(moveDirection.x * runSpeed, rb.linearVelocity.y, 0f);
     }
 
+    // Collision Enter
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Enter Door")) enterDoor = true;
         if (other.gameObject.CompareTag("Exit Door")) exitDoor = true;
     }
 
+    // Collision Exit
     void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("Enter Door")) enterDoor = false;
