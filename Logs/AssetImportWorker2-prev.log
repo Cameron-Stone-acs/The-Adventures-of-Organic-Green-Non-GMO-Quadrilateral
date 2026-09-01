@@ -1,0 +1,807 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.22f1 (1c726e1fb402) revision 1864302'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 65447 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-finge" at "2026-08-29T17:07:56.2496208Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-08-29T17:07:56Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/finge/OneDrive/Documents/Unity/The Adventures of Organic, Green, Non-GMO, Quadrilateral!
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+28626
+-parentPid
+11900
+-analyticsCloudUserId
+20067347476411
+-analyticsCloudProjectId
+3be8e2df-b871-44b7-b6e6-52f57caf8acf
+-analyticsLocalProjectId
+1eb061af8fd5f7849937f7d6628a000d
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+b52a59ac02f18f577f1932697603f49108bdb3e5
+-cbmMachineId
+b3DWQg0hQQ76W2b8Gj6u97/T1wU=
+-licensingIpc
+LicenseClient-finge
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/finge/OneDrive/Documents/Unity/The Adventures of Organic, Green, Non-GMO, Quadrilateral!
+C:/Users/finge/OneDrive/Documents/Unity/The Adventures of Organic, Green, Non-GMO, Quadrilateral!
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [16128]  Target information:
+
+Player connection [16128]  * "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 552056047 [EditorId] 552056047 [Version] 1048832 [Id] WindowsEditor(7,Zacharys-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16128] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16128] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.22f1 (1c726e1fb402)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/finge/OneDrive/Documents/Unity/The Adventures of Organic, Green, Non-GMO, Quadrilateral!/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon RX 9060 XT (ID=0x7590)
+    Vendor:          ATI
+    VRAM:            16304 MB
+    App VRAM Budget: 15459 MB
+    Driver:          32.0.22042.14002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-finge"
+[Licensing::IpcConnector] LicenseClient-finge channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-finge-6000.3.22" at "2026-08-29T17:07:57.8506779Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 5844, path: "C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              f9bfa225894746ec8010b0ee1e1d0b71
+  Correlation Id:          5cfa7736b2fba45764ba1775a2fe28cd
+  External correlation Id: 2131622629145806267
+  Machine Id:              b3DWQg0hQQ76W2b8Gj6u97/T1wU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-finge-6000.3.22" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-finge-6000.3.22-notifications" at "2026-08-29T17:07:57.8591835Z"
+[Licensing::Module] Licensing Background thread has ended after 1.61s
+[Licensing::Module] Licensing is initialized (took 1.00s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20067347476411-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 1.004903 seconds.
+- Loaded All Assemblies, in  1.324 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.319 seconds
+Domain Reload Profiling: 1640ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (1042ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (96ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (124ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (319ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (280ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 3: URL rejected: Malformed input to a URL function
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.721 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 1.64 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.720 seconds
+Domain Reload Profiling: 1436ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (493ms)
+		LoadAssemblies (327ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (166ms)
+				TypeCache.ScanAssembly (153ms)
+			BuildScriptInfoCaches (70ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (721ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (544ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 6468 unused Assets / (6.2 MB). Loaded Objects now: 7266.
+Memory consumption went from 159.6 MB to 153.4 MB.
+Total: 10.268100 ms (FindLiveObjects: 0.972900 ms CreateObjectMapping: 0.928100 ms MarkObjects: 4.772100 ms  DeleteObjects: 3.594200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12413.994767 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(3a28dff4d9d124c4fbb277a88ba9cecb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/PlayerController.cs using Guid(3a28dff4d9d124c4fbb277a88ba9cecb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '556cf44a5e152ddb8dde5fdb6cc4bc90') in 0.0599257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6452 unused Assets / (4.6 MB). Loaded Objects now: 7267.
+Memory consumption went from 158.3 MB to 153.7 MB.
+Total: 9.263800 ms (FindLiveObjects: 0.860900 ms CreateObjectMapping: 0.895400 ms MarkObjects: 5.402800 ms  DeleteObjects: 2.104000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.700 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.810 seconds
+Domain Reload Profiling: 1508ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (395ms)
+		LoadAssemblies (333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (154ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (810ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (632ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6463 unused Assets / (4.5 MB). Loaded Objects now: 7282.
+Memory consumption went from 168.0 MB to 163.4 MB.
+Total: 11.480200 ms (FindLiveObjects: 0.931700 ms CreateObjectMapping: 1.002400 ms MarkObjects: 6.952100 ms  DeleteObjects: 2.593300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6453 unused Assets / (3.9 MB). Loaded Objects now: 7283.
+Memory consumption went from 170.9 MB to 166.9 MB.
+Total: 7.031900 ms (FindLiveObjects: 0.659000 ms CreateObjectMapping: 0.359100 ms MarkObjects: 4.372800 ms  DeleteObjects: 1.640200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.795 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.757 seconds
+Domain Reload Profiling: 1551ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (516ms)
+		LoadAssemblies (368ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (231ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (207ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (758ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (562ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (170ms)
+			ProcessInitializeOnLoadAttributes (299ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6464 unused Assets / (5.4 MB). Loaded Objects now: 7286.
+Memory consumption went from 173.3 MB to 167.9 MB.
+Total: 8.845000 ms (FindLiveObjects: 0.597500 ms CreateObjectMapping: 0.675700 ms MarkObjects: 4.776400 ms  DeleteObjects: 2.794800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6453 unused Assets / (4.6 MB). Loaded Objects now: 7286.
+Memory consumption went from 176.2 MB to 171.6 MB.
+Total: 11.895600 ms (FindLiveObjects: 0.935100 ms CreateObjectMapping: 0.760800 ms MarkObjects: 7.011400 ms  DeleteObjects: 3.187300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 737.801334 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(3a28dff4d9d124c4fbb277a88ba9cecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(3a28dff4d9d124c4fbb277a88ba9cecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2b5ea9fc2683e811fb849092434586f') in 0.0018576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.521877 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(3a28dff4d9d124c4fbb277a88ba9cecb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/PlayerController.cs using Guid(3a28dff4d9d124c4fbb277a88ba9cecb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc4961d3b41e84429dcd155f74c39e77') in 0.0570131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6501 unused Assets / (3.9 MB). Loaded Objects now: 7320.
+Memory consumption went from 165.5 MB to 161.7 MB.
+Total: 11.715400 ms (FindLiveObjects: 0.711200 ms CreateObjectMapping: 0.799200 ms MarkObjects: 7.715700 ms  DeleteObjects: 2.487800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 166.413383 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/EditorCoroutines
+  artifactKey: Guid(0998aea88c6a91946a44ae541c77cd04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/EditorCoroutines using Guid(0998aea88c6a91946a44ae541c77cd04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af24baefa30a130c45a41c97e6485503') in 0.0050257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Completion.dll
+  artifactKey: Guid(ed466bfa2ad216b41acde183e7706352) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Completion.dll using Guid(ed466bfa2ad216b41acde183e7706352) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '51d51b2fa1e23575fd09844f7d817c21') in 0.0160867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.VSIXLibrary.pdb
+  artifactKey: Guid(c226b6341630e53448d4d77eb2fef251) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.VSIXLibrary.pdb using Guid(c226b6341630e53448d4d77eb2fef251) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f45e47e3b0c2e1322212f20fbc485450') in 0.0047402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/SelfDeletingScript.cs
+  artifactKey: Guid(c79d2c9a73c970c478d45ef349f7df1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/SelfDeletingScript.cs using Guid(c79d2c9a73c970c478d45ef349f7df1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '64eadf59869b3c65182048748f259fdd') in 0.0044209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.AnalyzersLite.pdb
+  artifactKey: Guid(ed66b9c086a8fc646b0681da93e8a9fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.AnalyzersLite.pdb using Guid(ed66b9c086a8fc646b0681da93e8a9fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52ce1c3be12e14271a7857c34c08fa0f') in 0.0048912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/MQTTnetInitializer.cs
+  artifactKey: Guid(6a503036d3d400042a5d9fdd5564202b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/MQTTnetInitializer.cs using Guid(6a503036d3d400042a5d9fdd5564202b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dac4cf04a92470d6e0928af7597398b5') in 0.0035061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/LazyInitializer.cs
+  artifactKey: Guid(cc6e883c86567a34a94d52b99adf98bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/LazyInitializer.cs using Guid(cc6e883c86567a34a94d52b99adf98bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4036e70ec66dfe5e695024a222200391') in 0.0049126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/Preferences/PreferenceEntryHolder.cs
+  artifactKey: Guid(b686b7831cfe0ec48b01473fa8a29772) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/Preferences/PreferenceEntryHolder.cs using Guid(b686b7831cfe0ec48b01473fa8a29772) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8fb178db152ea3bdc0ada6d134a7426') in 0.0049566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Newtonsoft.Json.dll
+  artifactKey: Guid(4adc17866ec41ac4e9ce6c47070aeef5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Newtonsoft.Json.dll using Guid(4adc17866ec41ac4e9ce6c47070aeef5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0225c76ff0781bb53baf128a3a276d2') in 0.0065434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/AnalyzerPostProcessor.cs
+  artifactKey: Guid(17f8bf228c22bbb438ef36b16a18652c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/AnalyzerPostProcessor.cs using Guid(17f8bf228c22bbb438ef36b16a18652c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4cd0d130a9e0222796d9cc73dafd17b') in 0.004636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.SynchronizerModel.pdb
+  artifactKey: Guid(01cc2111742b9584ea6e2cf01650fc51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.SynchronizerModel.pdb using Guid(01cc2111742b9584ea6e2cf01650fc51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '479d6352a73cfde6f25c3b632efd7acc') in 0.0043813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Completion.pdb
+  artifactKey: Guid(0e5b26b5095fc0048862783fb7c38dcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Completion.pdb using Guid(0e5b26b5095fc0048862783fb7c38dcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1d81f37924ce97bbeb3de53eeb111fc') in 0.0040965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.merry-yellow.code-assist
+  artifactKey: Guid(e470e2b2a23e91308ee47f77049c99ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist using Guid(e470e2b2a23e91308ee47f77049c99ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ee32e770a51078e85c761a64350d2a3') in 0.0041363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/ScriptFinder.cs
+  artifactKey: Guid(11ac3f66eb86de34cb65aa46b691b9ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/ScriptFinder.cs using Guid(11ac3f66eb86de34cb65aa46b691b9ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf0783788f68aa3111678ad6962452a7') in 0.0047757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.ProjectData.pdb
+  artifactKey: Guid(e7e0fa6acf2dc8f4aa086dd272e63b14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.ProjectData.pdb using Guid(e7e0fa6acf2dc8f4aa086dd272e63b14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f93a22b9b5cb9b252463995d910a58c8') in 0.0046156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/Preferences
+  artifactKey: Guid(c164513730091e1418a11b041ecdd523) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/Preferences using Guid(c164513730091e1418a11b041ecdd523) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0089e5ca0f0cb4a270bcb01026d9a0e6') in 0.0043258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.merry-yellow.code-assist/Third Party Notices.md
+  artifactKey: Guid(9881c9372a3cb5f41a3c73f821f29ce9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Third Party Notices.md using Guid(9881c9372a3cb5f41a3c73f821f29ce9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '529940353964178528bed26f3e611933') in 0.0048851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.CompletionInternals.dll
+  artifactKey: Guid(e70477d38c7ca2841971b35549d1477f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.CompletionInternals.dll using Guid(e70477d38c7ca2841971b35549d1477f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ae51fb019e639a4c69e3c1f102ac8b6') in 0.0062104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/UnityEditorShell.cs
+  artifactKey: Guid(f8a1c8d4b7d7fcc41bc2bdb8aa27522e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/UnityEditorShell.cs using Guid(f8a1c8d4b7d7fcc41bc2bdb8aa27522e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c968984da5539aa28944c9b4b5d1804') in 0.004275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/MQTTnetPublisher.cs
+  artifactKey: Guid(6e6bf8bab3f6a9a439b3992693b1fc34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/MQTTnetPublisher.cs using Guid(6e6bf8bab3f6a9a439b3992693b1fc34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9bc41a1cf33a21545f3d4fa95f33db5a') in 0.0044005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/Preferences/PreferenceMonitor.cs
+  artifactKey: Guid(d848223c4ab636544a7b13aeffa72434) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/Preferences/PreferenceMonitor.cs using Guid(d848223c4ab636544a7b13aeffa72434) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5095c0651050d146f9a4717983468535') in 0.0046672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.RoslynAnalyzerManager.pdb
+  artifactKey: Guid(62cb08177e0c7304083af3dbc066f6f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.RoslynAnalyzerManager.pdb using Guid(62cb08177e0c7304083af3dbc066f6f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db7177a00726d0d36545ace15699892d') in 0.0046055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/Monitor.cs
+  artifactKey: Guid(654d0913b44b86a40bee8394ea8c14cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/Monitor.cs using Guid(654d0913b44b86a40bee8394ea8c14cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76e3d4f21e2a414655ace2fee55b402e') in 0.0039753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/MainThreadDispatcher.cs
+  artifactKey: Guid(238ff68bac1bd2a44ad831a256db9cae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/MainThreadDispatcher.cs using Guid(238ff68bac1bd2a44ad831a256db9cae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '05fa9579394858f983fd8faf735b91ca') in 0.0045811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/EditorCoroutines/EditorCoroutineUtility.cs
+  artifactKey: Guid(b3d162669c5693a47bf42827686f73d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/EditorCoroutines/EditorCoroutineUtility.cs using Guid(b3d162669c5693a47bf42827686f73d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83f39b43deb49c3d95ec5cec674fef73') in 0.0044383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/Input/Binary2TextExec.cs
+  artifactKey: Guid(13d464c749e33e043b94d94c82365823) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/Input/Binary2TextExec.cs using Guid(13d464c749e33e043b94d94c82365823) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '229100e9601a43d1dd2bd2d5730b15fc') in 0.004506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/Preferences/RegistryMonitor.cs
+  artifactKey: Guid(fe045212b5ab43f4d9860e1fb03b686b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/Preferences/RegistryMonitor.cs using Guid(fe045212b5ab43f4d9860e1fb03b686b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8c77a82f9f2ae0eee757dc7d94031ea') in 0.0044791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/FeedbackWindow.cs
+  artifactKey: Guid(2f84a1c080c184e48920a0124c3e9257) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/FeedbackWindow.cs using Guid(2f84a1c080c184e48920a0124c3e9257) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5fb399b06d02159cdc853b5d0a4dd45e') in 0.0043397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/Input/Text2Yaml.cs
+  artifactKey: Guid(5e191fef871d30041a55c3c8af5aab43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/Input/Text2Yaml.cs using Guid(5e191fef871d30041a55c3c8af5aab43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5838064387376ae1da899d26d77687ad') in 0.0065064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/Updater.cs
+  artifactKey: Guid(bebf3fdfe56579944af4d710a6465a94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/Updater.cs using Guid(bebf3fdfe56579944af4d710a6465a94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5eec670d98945e7c6a2eea0bc1d194b7') in 0.0041848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/Logger/UnitySink.cs
+  artifactKey: Guid(f0cc7f1339aeef54898503bd5cdc51fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/Logger/UnitySink.cs using Guid(f0cc7f1339aeef54898503bd5cdc51fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6289d43cc652c25b745d7e01cb671a9') in 0.0042111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.merry-yellow.code-assist/CHANGELOG.md
+  artifactKey: Guid(1c541f26362738d45ad369a0458b7559) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/CHANGELOG.md using Guid(1c541f26362738d45ad369a0458b7559) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4daa84efc1d9a92f3fce4a3fce8f8ae2') in 0.0045972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.VSIXLibrary.dll
+  artifactKey: Guid(dd39e32872afc47418c75a05b559debf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.VSIXLibrary.dll using Guid(dd39e32872afc47418c75a05b559debf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c509458b7addc946555f93bde6a8bd3') in 0.0054241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.AnalyzersLite.dll
+  artifactKey: Guid(37e44dd86f563cf40a81ef1fdf1f1b54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.AnalyzersLite.dll using Guid(37e44dd86f563cf40a81ef1fdf1f1b54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c92d40aa8f9956625a4bc31411710de6') in 0.0046428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/StatusWindow.cs
+  artifactKey: Guid(bf49614de8ad81c45828cc9e98f0c174) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/StatusWindow.cs using Guid(bf49614de8ad81c45828cc9e98f0c174) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b78033e32086c79b7146e51ceaf740d1') in 0.0037897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/EditorCoroutines/EditorWindowCoroutineExtension.cs
+  artifactKey: Guid(64c15e0c4e36aa84193d4acb3c63afc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/EditorCoroutines/EditorWindowCoroutineExtension.cs using Guid(64c15e0c4e36aa84193d4acb3c63afc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fcbc6e32f87d0fa7daff50241f1289df') in 0.0045843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.SynchronizerModel.dll
+  artifactKey: Guid(849ce1048cc324a46b0fe21149770a3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.SynchronizerModel.dll using Guid(849ce1048cc324a46b0fe21149770a3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9c4b8b559c179eb9f6fe34137e558de') in 0.0044529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6500 unused Assets / (3.9 MB). Loaded Objects now: 7319.
+Memory consumption went from 165.6 MB to 161.8 MB.
+Total: 7.945000 ms (FindLiveObjects: 0.728000 ms CreateObjectMapping: 0.320600 ms MarkObjects: 4.956500 ms  DeleteObjects: 1.939000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.197 seconds
+Refreshing native plugins compatible for Editor in 1.75 ms, found 4 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.858 seconds
+Domain Reload Profiling: 2046ms
+	BeginReloadAssembly (281ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (778ms)
+		LoadAssemblies (542ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (381ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (138ms)
+			BuildScriptInfoCaches (210ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (859ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (656ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (192ms)
+			ProcessInitializeOnLoadAttributes (373ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 1.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6511 unused Assets / (4.4 MB). Loaded Objects now: 7322.
+Memory consumption went from 168.9 MB to 164.5 MB.
+Total: 10.030600 ms (FindLiveObjects: 0.612300 ms CreateObjectMapping: 0.713400 ms MarkObjects: 6.055000 ms  DeleteObjects: 2.649200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
