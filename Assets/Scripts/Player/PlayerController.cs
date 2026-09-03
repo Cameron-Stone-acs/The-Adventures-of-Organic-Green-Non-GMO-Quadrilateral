@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     // Movement variables
     public float runSpeed = 5f;
     public float JumpForce = 5f;
+    public float extraJumps = 1;
+    public float currentExtraJumps;
     private bool isGrounded;
     private Vector2 moveDirection;
     private Vector3 playerPosition;
@@ -51,7 +53,13 @@ public class PlayerController : MonoBehaviour
         isGrounded = groundCheckScript.isGrounded;
 
         // Jumping
-        if (jumpAction.WasPressedThisFrame() && isGrounded) rb.AddForce(Vector3.up * JumpForce, ForceMode.Impulse);
+        if (jumpAction.WasPressedThisFrame() && currentExtraJumps > 0)
+        {
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z);
+            rb.AddForce(Vector3.up * JumpForce, ForceMode.Impulse);
+            currentExtraJumps--;
+        }
+        if (isGrounded) currentExtraJumps = extraJumps;
 
         // Interactions
         if (interactAction.WasPressedThisFrame())

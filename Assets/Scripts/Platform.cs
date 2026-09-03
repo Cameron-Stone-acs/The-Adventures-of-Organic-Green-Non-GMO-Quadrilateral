@@ -35,7 +35,7 @@ public class Platform : MonoBehaviour
         }
         if (rb.linearVelocity.y > 0 && !isIgnoring)
         {
-            StartCoroutine(TemporarilyIgnoreCollision(0.1f));
+            StartCoroutine(TemporarilyIgnoreCollision(0.2f));
         }
     }
 
