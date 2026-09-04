@@ -6,7 +6,8 @@ public class GroundCheck : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(!other.gameObject.CompareTag("Enter Door") && !other.gameObject.CompareTag("Exit Door"))
+        if(!other.gameObject.CompareTag("Enter Door") && !other.gameObject.CompareTag("Exit Door") &&
+            !other.gameObject.CompareTag("Checkpoint") && !other.gameObject.CompareTag("Kill"))
         {
             isGrounded = true;
         }
@@ -14,7 +15,8 @@ public class GroundCheck : MonoBehaviour
     
     void OnTriggerExit(Collider other)
     {
-        if (!other.gameObject.CompareTag("Enter Door") && !other.gameObject.CompareTag("Exit Door"))
+        if (!other.gameObject.CompareTag("Enter Door") && !other.gameObject.CompareTag("Exit Door") && 
+            !other.gameObject.CompareTag("Checkpoint") && !other.gameObject.CompareTag("Kill"))
         {
             isGrounded = false;
         }

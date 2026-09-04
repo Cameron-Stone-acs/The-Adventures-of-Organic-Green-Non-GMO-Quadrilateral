@@ -15,20 +15,26 @@ public class PlayerController : MonoBehaviour
     public float runSpeed = 5f;
     public float JumpForce = 5f;
     public float extraJumps = 1;
-    public float currentExtraJumps;
+    private float currentExtraJumps;
     private bool isGrounded;
     private Vector2 moveDirection;
     private Vector3 playerPosition;
 
     // Door variables
-    public bool enterDoor = false;
-    public bool exitDoor = false;
+    private bool enterDoor = false;
+    private bool exitDoor = false;
+
+    // Respawn Variables
+    private Transform currentRespawn;
+    private Transform collidedRespawn;
+    private float currentRespawnNumber;
+    private float collidedRespawnNumber;
 
     // Other Objects and Scripts
     public GroundCheck groundCheckScript;
     private Rigidbody rb;
 
-
+    // Runs when script is loaded
     void Start()
     {
         // Assigning component references
@@ -45,10 +51,11 @@ public class PlayerController : MonoBehaviour
         interactAction.Enable();
     }
 
+    // Runs every Frame
     void Update()
     {
         // Assigning variables that need to be constant
-        playerPosition = this.gameObject.transform.position;
+        playerPosition = this.transform.position;
         moveDirection = moveAction.ReadValue<Vector2>(); // Ge the X and Y values from the move action in the input system
         isGrounded = groundCheckScript.isGrounded;
 
@@ -69,10 +76,23 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // Movement
+    // Runs every fixed frame
     void FixedUpdate()
     {
-        rb.linearVelocity = new Vector3(moveDirection.x * runSpeed, rb.linearVelocity.y, 0f);
+        rb.linearVelocity = new Vector3(moveDirection.x * runSpeed, rb.linearVelocity.y, 0f); // Smooth Movement
+    }
+
+    // Assigns new checkpoint 
+    private void CheckPoint(Collider other)
+    {
+        collidedRespawn = other.gameObject.transform;
+        collidedRespawnNumber = other.gameObject.GetComponent<CheckPoint>().checkpointNumber;
+
+        if (currentRespawnNumber < collidedRespawnNumber)
+        {
+            currentRespawn = collidedRespawn;
+            currentRespawnNumber = collidedRespawnNumber;
+        }
     }
 
     // Collision Enter
@@ -80,6 +100,9 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enter Door")) enterDoor = true;
         if (other.gameObject.CompareTag("Exit Door")) exitDoor = true;
+        if (other.gameObject.CompareTag("Kill")) this.transform.position = currentRespawn.position;
+
+        if (other.gameObject.CompareTag("Checkpoint")) CheckPoint(other);
     }
 
     // Collision Exit
